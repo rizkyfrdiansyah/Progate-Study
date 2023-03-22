@@ -1,0 +1,45 @@
+.container {
+  margin: 20px;
+}
+
+.item {
+  width: 25%;
+  float: left;
+}
+
+.item-box {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.green {
+  background-color: #11d8b3;
+}
+
+.yellow {
+  background-color: #ffd466;
+}
+
+.red {
+  background-color: #ed456d;
+}
+
+.blue {
+  background-color: #3d7dd8;
+}
+
+/* Untuk Tablet */
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+  .item {
+    width: 50%;
+  }
+}
+
+/* Untuk Smartphone */
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+  .item {
+    width: 100%;
+  }
+}
